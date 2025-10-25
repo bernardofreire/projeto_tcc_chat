@@ -322,7 +322,7 @@ export function AdminDashboard({ onStatsUpdate }: AdminDashboardProps) {
       </div>
 
       {/* Atividades Recentes */}
-      <Card>
+      {/* <Card>
         <CardHeader>
           <CardTitle>Atividades Recentes</CardTitle>
           <CardDescription>Últimas ações no sistema</CardDescription>
@@ -351,7 +351,7 @@ export function AdminDashboard({ onStatsUpdate }: AdminDashboardProps) {
             ))}
           </div>
         </CardContent>
-      </Card>
+      </Card> */}
     </div>
   )
 }
